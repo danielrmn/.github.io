@@ -1,0 +1,14 @@
+.foto-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 760px;
+    margin: 0 auto;
+}
+
+.foto-images-container {
+    width: auto;
+}
+
+.image_5, .image_6, .image_7, .image_10 {
+    width: 300px;
+}
