@@ -29,8 +29,8 @@ header {
 
 .header-img-container img {
     margin-top: 70px;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 100px;
 }
 
@@ -58,8 +58,7 @@ main {
     height: auto;
     position: relative;
     display: inline-block;
-    background: linear-gradient(
-    207.8deg, #b388eb 16.69%, #ffe150 100%);
+    background: #fff;
 }
 
 .main-social-container {
@@ -72,11 +71,9 @@ main {
 .main-social-container .container {
     width: 95%;
     min-width: 288px;
-    height: 50px;
+    padding: 20px 0;
     margin: 15px auto;
-    background-color: #fdc5f5;
-    border-radius: 10px;
-    border: 1px solid #f7aef8;
+    background-color: #000000;
 }
 
 
@@ -85,9 +82,8 @@ main {
 }
 
 .container a p{
-    padding: 10px 0;
-    font-size: 2.5rem;
-    color: #000000;
+    font-size: 2rem;
+    color: #fff;
 }
 
 .cookies-container {
@@ -164,13 +160,12 @@ main {
 
 footer {
     width: 100%;
-    height: 50px;
+    padding: 60px 0;
     background-color: #000000;
     text-align: center;
 }
 
 footer p {
-    padding-top: 15px;
     font-size: 1.5rem;
     color: #ffff;
 }
