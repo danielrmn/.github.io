@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-img-container {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url('images/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-img-container img {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.header-txt-container {
+    margin-top: 35px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    align-self: center;
+}
+
+.header-txt-container h1 {
+    font-size: 3.5rem;
+    color: #ffff;
+}
+
+.header-txt-container p {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #ffff;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(
+    207.8deg, #b388eb 16.69%, #ffe150 100%);
+}
+
+.main-social-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.main-social-container .container {
+    width: 95%;
+    min-width: 288px;
+    height: 50px;
+    margin: 15px auto;
+    background-color: #fdc5f5;
+    border-radius: 10px;
+    border: 1px solid #f7aef8;
+}
+
+
+.container a {
+    text-decoration: none;
+}
+
+.container a p{
+    padding-top: 10px;
+    font-size: 2.5rem;
+    color: #000000;
+}
+
